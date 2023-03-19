@@ -93,3 +93,5 @@ const numberPair5 = numbers(72, 3)
 
 console.log({numberPair1, numberPair2, numberPair3, numberPair4, numberPair5});
 
+
+

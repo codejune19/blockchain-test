@@ -1,23 +1,24 @@
-const fooArray = ['foo', 'bar', 'goo', 'goat']
 
-
-const runLoop = (paramOne) => {
-    for(let i=0; i<10; i++) {
-        console.log(i)
-    }
-    
-    for (let i=0; i<fooArray.length; i++){
-        console.log(paramOne, i)
-        paramOne()
-        if (fooArray[i] =='goat'){
-            console.log("we found goat")
-        }else{
-            console.log("there's no goat")
-        }
-    }
-        
+function toMultipy (a,b) {
+    const multiFormula = a*b
+    return multiFormula
 }
-const lobsterw =()=> console.log('lobbystere')
-runLoop(lobsterw)
 
+function toDivide ( b, c) {
+    const diviFormula= b/c
+    return diviFormula.toFixed(2)
+}
 
+function onClickMultiply(){
+    const firstNumber = document.
+    getElementById("first").value
+
+    const secondNumber = document.getElementById("second").value
+
+    const result = document.getElementById('result')
+    
+    const output = toMultipy(firstNumber, secondNumber)
+
+    result.innerText = output
+
+}
