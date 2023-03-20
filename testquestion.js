@@ -138,4 +138,21 @@ triangle2 = areaOfTriangle(24, 6)
 triangle3 = areaOfTriangle(16, 10)
 triangle4 = areaOfTriangle(2, 5)
 
-console.log({triangle1, triangle2, triangle3, triangle4});
+console.log({triangle1, triangle2, triangle3, triangle4})
+
+//multiples
+
+function number(num) {
+  if ( num % 3 == 0 || num % 7 == 0){
+    return true
+  } else {
+    return false
+  }
+}
+
+const number1 = number(21);
+const number2 = number(61);
+const number3 = number(54);
+const number4 = number(35);
+const number5 =number(20)
+console.log({number1, number2, number3, number4, number5})
