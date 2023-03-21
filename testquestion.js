@@ -156,3 +156,19 @@ const number3 = number(54);
 const number4 = number(35);
 const number5 =number(20)
 console.log({number1, number2, number3, number4, number5})
+
+// A function that calculates the difference between two numbers
+
+function intergars(a, b){
+  b = 13
+  const difference = a - 13
+  return a > b? difference * 2: difference
+};
+
+const numberSet1 = intergars(12, 13);
+const numberSet2 = intergars(34, 13);
+const numberSet3 = intergars(13, 13);
+const numberSet4 = intergars(40, 13);
+const numberSet5 = intergars(23, 13);
+
+console.log({numberSet1, numberSet2, numberSet3,numberSet4, numberSet5});
