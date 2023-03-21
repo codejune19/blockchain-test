@@ -188,3 +188,17 @@ const sum4 = twoIntegars(6, 6);
 const sum5 = twoIntegars(7, 7);
 
 console.log({sum1, sum2, sum3, sum4, sum5});
+
+//function to determine positive or negative integers
+
+function checkPositiveOrNegative (a, b) {
+  return a > 0 && b > 0 ? false: true
+}
+
+const aSet1 = checkPositiveOrNegative( 3, 8);
+const aSet2 = checkPositiveOrNegative(-9, -6);
+const aSet3 = checkPositiveOrNegative(3, 4);
+const aSet4 = checkPositiveOrNegative(9, -9)
+const aSet5 = checkPositiveOrNegative(0, 0)
+
+ console.log({aSet1, aSet2, aSet3, aSet4, aSet5})
