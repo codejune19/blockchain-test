@@ -172,3 +172,19 @@ const numberSet4 = intergars(40, 13);
 const numberSet5 = intergars(23, 13);
 
 console.log({numberSet1, numberSet2, numberSet3,numberSet4, numberSet5});
+
+
+//function to sum up integars
+
+function twoIntegars ( a, b) {
+  const theSum = a + b;
+  return a === b? (a * b) * 3: theSum
+}
+
+const sum1 = twoIntegars(14, 7);
+const sum2 = twoIntegars(3, 3);
+const sum3 = twoIntegars(45, 21);
+const sum4 = twoIntegars(6, 6);
+const sum5 = twoIntegars(7, 7);
+
+console.log({sum1, sum2, sum3, sum4, sum5});
